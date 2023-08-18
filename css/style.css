@@ -1,3 +1,12 @@
+body {
+    background-image: radial-gradient(circle, #A5B6B0, #5C706C, #374340, #1C2220);
+    font-family: "Georgia";
+    font-weight: 500;
+    color: white;
+}
+
+
+
 .navbar-collapse{
     display: flex;
     justify-content: space-around;
@@ -11,8 +20,8 @@
 
 /* The hero image */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/organized-workspace.jpg");
-    height: 100vh; /* Set the height to the full viewport height */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("../img/organized-workspace.jpg");
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,5 +35,5 @@
     top: 20%;
     left: 40%;
     transform: translate(-50%, -50%);
-    color: white;
 }
+

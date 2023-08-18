@@ -1,4 +1,30 @@
-.logo{
+.navbar-collapse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.fa-brands{
+    margin-top: 12px;
+}
 
 
+/* The hero image */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/organized-workspace.jpg");
+    height: 100vh; /* Set the height to the full viewport height */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: start;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
